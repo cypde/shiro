@@ -10,7 +10,7 @@
 
 2. 导入pom文件后，目录结构如下所示
 
-   ![image](image/image-20210612220222205.png)
+  ![Image text](image/image-20210612220222205.png)
 
 3. 测试需要使用Postman比较直观
 
