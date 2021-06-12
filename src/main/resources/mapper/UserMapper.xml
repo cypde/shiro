@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cyp.shiro.mapper.UserLoginMapper">
+
+    <select id="queryUserByUserName" resultType="com.cyp.shiro.pojo.User">
+        SELECT * FROM username where username = #{username};
+    </select>
+
+    <insert id="insertUser" parameterType="com.cyp.shiro.pojo.User">
+        insert into username values(#{id},#{username},#{password},#{roles},,#{salt})
+    </insert>
+</mapper>
