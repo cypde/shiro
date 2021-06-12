@@ -11,10 +11,11 @@
 2. 导入pom文件后，目录结构如下所示
 
   ![image](image/image-20210612220222205.png)
+  
 
 3. 测试需要使用Postman比较直观
 
-    ![image](image/image-20210612221032004.png)
+    ![image](https://github.com/cypde/shiro/blob/7d36a865ca9bc09a2c1233f33eff240a0d0fa315/image/image-20210612221032004.png)
 
     ![image](image/image-20210612221257412.png)
 
